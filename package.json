@@ -1,5 +1,5 @@
 {
-  "name": "vue-blog-proto",
+  "name": "vue-blog-sample",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^2.1.1",
+    "vuex": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -32,7 +35,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": [0 , {"vars": "local", "args": "none"}]
+    }
   },
   "browserslist": [
     "> 1%",

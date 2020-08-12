@@ -1,0 +1,16 @@
+{
+  "name": "vue_blog_server_sample",
+  "version": "0.1.0",
+  "description": "node.js",
+  "main": "app.js",
+  "author": "Aihara",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "csprng": "^0.1.2",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.1",
+    "sha1": "^1.1.1"
+  }
+}
