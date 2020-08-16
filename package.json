@@ -12,7 +12,8 @@
     "vue": "^2.6.11",
     "vue-resource": "^1.5.1",
     "vue-router": "^2.1.1",
-    "vuex": "^2.0.0"
+    "vuex": "^2.0.0",
+    "less-loader": "^6.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -36,7 +37,13 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "no-unused-vars": [0 , {"vars": "local", "args": "none"}]
+      "no-unused-vars": [
+        0,
+        {
+          "vars": "local",
+          "args": "none"
+        }
+      ]
     }
   },
   "browserslist": [

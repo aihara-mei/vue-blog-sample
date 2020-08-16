@@ -27,7 +27,7 @@
     </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 export default {
     data () {
         return {
@@ -44,14 +44,14 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
 .header-navigation a {
     color: white;
 }
 
 .navbar a{
     font-weight: 400;
-    font-size: 1.15em;
+    font-size: 1.15rem;
 }
 
 .coverImg {
@@ -62,19 +62,16 @@ export default {
 .heading {
     text-align: center;
     padding: 20% 0;
-}
-
-.heading h1{
-    font-weight: 800;
+    h1 {
+        font-weight: 800;
+        font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    h2 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.heading h2{
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.heading p{
-    font-style: italic;
-    font-family: 'Lora', 'Times New Roman', serif;
+    }
+    p {
+        font-style: italic;
+        font-family: 'Lora', 'Times New Roman', serif;
+    }
 }
 </style>

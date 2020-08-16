@@ -1,6 +1,6 @@
 <template>
     <footer>
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <div class="footer-copyright text-center py-3 grey-footer">© 2020 Copyright:
         <a href="https://github.com/aihara-mei "> https://github.com/aihara-mei </a>
     </div>
     </footer>
@@ -10,11 +10,11 @@
 
 </script>
 
-<style>
-footer a {
-    color: grey;
-}
+<style lang="less">
 footer {
     color: grey;
+    a {
+    color: grey;
+}
 }
 </style>

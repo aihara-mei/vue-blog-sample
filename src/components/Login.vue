@@ -23,7 +23,7 @@
     </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 import {mapState, mapActions, mapMutations} from 'vuex'
 
 export default {
@@ -64,5 +64,4 @@ export default {
     margin-top: 40px;
     margin-bottom: 20px;
 }
-
 </style>
